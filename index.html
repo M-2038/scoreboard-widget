@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard Widget</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="widget">
+        <div id="header">
+            <span id="league-name">LIGUE</span>
+            <img src="" alt="League Logo" id="league-logo">
+        </div>
+        <div id="match-info">
+            <div class="team">
+                <img src="" alt="Team Logo" class="team-logo" id="team1-logo">
+                <span class="team-abbreviation" id="team1-abbreviation">TEAM1</span>
+                <span class="team-score" id="team1-score">0</span>
+            </div>
+            <div class="team">
+                <img src="" alt="Team Logo" class="team-logo" id="team2-logo">
+                <span class="team-abbreviation" id="team2-abbreviation">TEAM2</span>
+                <span class="team-score" id="team2-score">0</span>
+            </div>
+            <div id="time-remaining">00:00</div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
